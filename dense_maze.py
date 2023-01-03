@@ -85,7 +85,7 @@ def main():
             rand_choice = random.choice(unvisited_ns)
             cellStack.append(rand_choice)
 
-        time.sleep(.1)
+        time.sleep(.05)
         print_maze(grid)
     time.sleep(5)
 
